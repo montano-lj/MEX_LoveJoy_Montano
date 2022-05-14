@@ -1,0 +1,29 @@
+.todo-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.todo-button {
+  background-color: #048789;
+  outline: none;
+  border-color: transparent;
+  padding: 4px 6px;
+  font-weight: 800;
+  color: #f9f7e9;
+  border-radius: 10px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.form-radio {
+  padding: 5px;
+}
+.form-radio label {
+  font-size: 1rem;
+  margin-right: 5px;
+}
+.radio-priority {
+  margin: 5px;
+}

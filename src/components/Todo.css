@@ -1,0 +1,54 @@
+.icons {
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.delete-icon {
+  font-size: 1.5rem;
+  margin-left: 6px;
+  color: #ff6a00;
+}
+.delete-icon:hover {
+  color: red;
+  text-align: end;
+  margin: 5px;
+  align-content: center;
+}
+.todo-items h1 {
+  padding: 10px;
+  color: black;
+}
+
+.todo-row {
+  margin-top: 10px;
+}
+.todo-items button {
+  width: 40px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 0 20px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.priority {
+  border-radius: 10px;
+  font-size: 1.5rem;
+  margin-left: 6px;
+  background-color: red;
+  color: black;
+}
+
+.complete {
+  border-radius: 10px;
+  font-size: 1.5rem;
+  margin-left: 6px;
+  background-color: gray;
+}
+.complete:hover {
+  color: red;
+  margin: 5px;
+  align-content: center;
+}
